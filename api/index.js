@@ -1,9 +1,10 @@
 const fs = require('fs');
+const path = require("path");
 
 module.exports = async (req, res) => {
     let time = '';
     try {
-        const s = await fs.statSync('./public/west.m3u');
+        const s = await fs.statSync(path.join(__dirname,'/public/west.m3u'));
         time = 'time ' + s.ctime;
     } catch (e) {
         time = 'currently no files';

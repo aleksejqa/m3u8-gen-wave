@@ -72,17 +72,6 @@ module.exports = async (request, response) => {
                     if (r.size === 0) {
                         errors["300"].push(item.location);
                     } else {
-                        const a = await r.text();
-                        const v = a.split(',')
-                            .find(b => b.indexOf('RESOLUTION') !== -1);
-
-                        if (v) {
-                            const ad = v.replace('RESOLUTION=', '');
-                            if (ad && ad.indexOf('chunklist') === -1) {
-                                item.attributes.resolution = ad;
-                            }
-                        }
-
                         if (!excluded.some((a) => res.url.indexOf(a) !== -1)) {
                             // if(a.medias){
                             //     a.medias.forEach(c => c.attributes.resolution)
@@ -130,7 +119,7 @@ module.exports = async (request, response) => {
     fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
     fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), playlist.getM3uString());
     response.send(`<div>
-                <button onclick="window.location.href=`/`; return false;">back</button>
+                <button onclick="window.location.href=` / `; return false;">back</button>
                 <span>updated ${playlist.medias.length}</span>
             </div>`);
 }
