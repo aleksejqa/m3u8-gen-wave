@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const app = express();
 
-app.get('/', async (req,res) => {
+app.get('/api', async (req,res) => {
     let time = '';
     try {
         const s = await fs.statSync('./public/west.m3u');
@@ -15,7 +15,7 @@ app.get('/', async (req,res) => {
 
     res.send(`<div><div>${time}</div><ul><li><a href="/update">Update</a></li><li><a href="/public/west.m3u">get</a></li></ul></div>`)
 })
-app.get('/update', (req, res) => {
+app.get('/api/update', (req, res) => {
     getData();
     res.send('<div><button onclick="window.location.href=`/`; return false;">back</button><span>updating...</span></div>');
 })
