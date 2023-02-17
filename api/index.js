@@ -13,7 +13,7 @@ app.get('/api', async (req,res) => {
         time = 'currently no files';
     }
 
-    res.send(`<div><div>${time}</div><ul><li><a href="/update">Update</a></li><li><a href="/public/west.m3u">get</a></li></ul></div>`)
+    res.send(`<div><div>${time}</div><ul><li><a href="/api/update">Update</a></li><li><a href="/public/west.m3u">get</a></li></ul></div>`)
 })
 app.get('/api/update', (req, res) => {
     getData();
