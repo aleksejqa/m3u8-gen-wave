@@ -22,17 +22,15 @@ const errors = {
     500: er["500"],
 }
 
-module.exports = async (request, response) => {
-    // const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
-    // const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
-    const f = await fetch(pl3).then(r => r.blob());
-    const b = await f.text()
-    const b3 = M3uParser.parse(b);
-    console.log(b3)
+module.exports = (async () => {
+
+    const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
+    const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
+    const b3 = M3uParser.parse(await (await fetch(pl3).then(r => r.blob())).text());
 
     const result = [];
 
-    const medias = [...b3.medias]
+    const medias = [...b.medias, ...b2.medias, ...b3.medias]
         .filter((item) => item.location.indexOf('.mp4') === -1)
         .filter((item) => item.location.indexOf('.ru:') === -1)
         .filter((item) => item.location.indexOf('.ru/') === -1);
@@ -41,8 +39,8 @@ module.exports = async (request, response) => {
         if (!result.some(a => a.location.trim() === item.location.trim()) && !excluded.some(a => a.trim() === item.location.trim())) {
             result.push({
                 ...item,
-                name: item.name
-                    .replace('\r', '')
+                name: item.name.trim()
+                    .replace(' r', '')
                     .replace(' HD', '')
                     .replace(' (UA)', '')
                     .replace(' (720p)', '')
@@ -68,17 +66,16 @@ module.exports = async (request, response) => {
                 if (!res.headers.get('content-length')) {
                     res2.push(item);
                 } else {
-                    const r = await res.blob();
+                    let r = await res.blob();
                     if (r.size === 0) {
                         errors["300"].push(item.location);
                     } else {
                         if (!excluded.some((a) => res.url.indexOf(a) !== -1)) {
-                            // if(a.medias){
-                            //     a.medias.forEach(c => c.attributes.resolution)
-                            //     console.log(item.attributes.resolution);
-                            // }
+                            if (!item.attributes["group-title"]) {
+                                item.attributes["group-title"] = "УКРАИНА"
+                            }
                             if (res.redirected) {
-                                item.location = res.url.indexOf('.m3u8') === -1 ? res.url + '.m3u8' : res.url
+                                item.location = res.url
                             }
                             res2.push(item);
                         }
@@ -94,32 +91,13 @@ module.exports = async (request, response) => {
         }
     }
 
-
-    res2.sort((a, b) => {
-        if (a.attributes.resolution && b.attributes.resolution) {
-            if (parseInt(
-                a.attributes.resolution.split('x')[0]
-            ) < parseInt(
-                b.attributes.resolution.split('x')[0]
-            )) {
-                return -1;
-            }
-            return 1;
-        }
-        return -1;
-
-    }).forEach((item) => {
+    res2.sort((a, b) => a.name < b.name ? -1 : 1).forEach((item) => {
         if (!playlist.medias.some(a => a.location.trim() === item.location.trim())) {
-            if (!playlist.medias.some(a => a.name.trim() === item.name.trim())) {
-                playlist.medias.push(item)
-            }
+            playlist.medias.push(item)
         }
     })
 
     fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
-    fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), playlist.getM3uString());
-    response.send(`<div>
-                <button onclick="window.location.href=` / `; return false;">back</button>
-                <span>updated ${playlist.medias.length}</span>
-            </div>`);
-}
+    fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), `#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz"` + playlist.getM3uString());
+    console.log('end: ' + playlist.medias.length)
+})()
