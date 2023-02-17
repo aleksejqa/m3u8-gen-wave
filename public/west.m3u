@@ -107,7 +107,7 @@ http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 #EXTINF:-1 resolution="1280x720",Сфера ТВ
 http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
 #EXTINF:-1 resolution="1920x1080",1 Городской Одесса
-http://cdn10g-pl.ott.pink:8081/catena-17-7408-streamer-1gorododessahd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7408-streamer-1gorododessahd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:0 ,33 канал (Хмельницький)
 https://33news.org/33chanel/live/chunklist_w459617257.m3u8
 #EXTINF:0 ,ГІТ (Волинь)
@@ -123,11 +123,11 @@ http://185.53.79.12/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 ,Надия/N.K.
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 resolution="1024x576",Белсат
-http://cdn10g-pl.ott.pink:8081/catena-17-149-streamer-belsattv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-149-streamer-belsattv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Прямий
-http://cdn10g-pl.ott.pink:8081/catena-17-14-streamer-priamiyhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-14-streamer-priamiyhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Галичина 
-http://cdn10g-pl.ott.pink:8081/catena-17-116-streamer-galichina/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-116-streamer-galichina/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Первый городской Кривий Ріг
 http://cdn1.live-tv.od.ua:8081/1tvkr/1tvkr-abr/playlist.m3u8
 #EXTINF:-1 resolution="1280x720",Полтавское ТВ
@@ -137,17 +137,17 @@ http://95.67.21.100/hls/prm_ua_hi/index.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 ,FREEДОМ
 https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8
 #EXTINF:-1 resolution="854x480",Рада
-http://cdn10g-pl.ott.pink:8081/catena-17-7418-streamer-radahd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7418-streamer-radahd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,24 Канал
 http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
 #EXTINF:-1 resolution="1048x576",4 канал UA
-http://cdn10g-pl.ott.pink:8081/catena-17-6987-streamer-4channelua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-6987-streamer-4channelua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1048x576",FREEДОМ - UATV Channel
-http://cdn10g-pl.ott.pink:8081/catena-17-7431-streamer-uatvru/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7431-streamer-uatvru/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,Суспільне Культура
 http://91.146.94.234:10001/play/a04j
 #EXTINF:-1 resolution="1920x1080",Суспільне Київ 
-http://cdn10g-pl.ott.pink:8081/catena-17-7592-streamer-syspilnekyivhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7592-streamer-syspilnekyivhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,OBOZ TV
 http://player.obozrevatel.com/live2/stream.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 ,I-UA TV
@@ -173,7 +173,7 @@ https://edge02.odtv.az/o5/discovery/playlist.m3u8
 #EXTINF:-1 resolution="720x576",Discovery Science
 https://edge02.odtv.az/o3/discoveryscience/playlist.m3u8
 #EXTINF:-1 resolution="1280x720",Масон
-http://cdn10g-pl.ott.pink:8081/catena-17-117-streamer-tva/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-117-streamer-tva/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,Дизайн
 http://195.189.60.181:312/924/index.m3u8
 #EXTINF:-1 resolution="853x480",Полезная еда
@@ -183,23 +183,23 @@ http://185.32.44.154/history/index.m3u8
 #EXTINF:-1 resolution="1048x576",ANIMAL PLANET
 http://185.32.44.154/animalplanet/index.m3u8
 #EXTINF:-1 resolution="1280x720",ТРК Київ
-http://cdn10g-pl.ott.pink:8081/catena-17-7410-streamer-kyivhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7410-streamer-kyivhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Еспресо
-http://cdn10g-pl.ott.pink:8081/catena-17-10-streamer-espressohd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-10-streamer-espressohd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Закон-ТВ
-http://cdn10g-pl.ott.pink:8081/catena-17-7506-streamer-zakontv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7506-streamer-zakontv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",Уніaн 
-http://cdn10g-pl.ott.pink:8081/catena-17-236-streamer-uniantv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-236-streamer-uniantv/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1280x720",D1
-http://cdn10g-pl.ott.pink:8081/catena-17-7494-streamer-d1ua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7494-streamer-d1ua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1920x1080",National Geographic
 https://edge02.odtv.az/o3/natgeo/playlist.m3u8
 #EXTINF:-1 resolution="1920x1080",Nat Geo Wild
 https://edge02.odtv.az/o3/natgeowild/playlist.m3u8
 #EXTINF:-1 resolution="1920x1080",5 Канал
-http://cdn10g-pl.ott.pink:8081/catena-17-7-streamer-5channelhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7-streamer-5channelhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1920x1080",Армія ТВ
-http://cdn10g-pl.ott.pink:8081/catena-17-7572-streamer-armytvhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7572-streamer-armytvhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,Международная кухня
 http://195.189.60.181:312/918/index.m3u8
 #EXTINF:-1 ,Вкусная еда
@@ -257,7 +257,7 @@ http://195.189.60.181:312/44/index.m3u8
 #EXTINF:0 ,ТЕТ 
 http://91.146.94.234:10001/play/a04p
 #EXTINF:-1 resolution="1024x576",Інтер
-http://cdn10g-pl.ott.pink:8081/catena-17-7316-streamer-interua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-7316-streamer-interua/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1024x576",TV1000 Action 
 http://176.74.80.162:8099/TV1000Action/index.m3u8
 #EXTINF:-1 ,Новий канал
@@ -267,13 +267,13 @@ http://91.146.94.234:10001/play/a04l
 #EXTINF:-1 ,ICTV р
 http://91.146.94.234:10001/play/a04k
 #EXTINF:-1 resolution="1920x1080",ICTV
-http://cdn10g-pl.ott.pink:8081/catena-17-13-streamer-ictvhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-13-streamer-ictvhd/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 ,2+2
 http://91.146.94.234:10001/play/a04r
 #EXTINF:0 ,1+1
 http://91.146.94.234:10001/play/a04i
 #EXTINF:-1 resolution="1920x1080",Перший
-http://cdn10g-pl.ott.pink:8081/catena-17-6972-streamer-uapershiy/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
+http://cdn1-pl.ott.pink:8081/catena-17-6972-streamer-uapershiy/index.m3u8?token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 resolution="1920x1080",VIP Megahit
 https://edge02.odtv.az/o6/tv1000megahit/playlist.m3u8
 #EXTINF:-1 ,UA Перший

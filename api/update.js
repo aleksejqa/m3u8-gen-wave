@@ -1,5 +1,6 @@
 const {M3uParser, M3uPlaylist} = require("m3u-parser-generator");
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const path = require('path');
 const fs = require('fs');
 const er = require('../public/errors.json');
 const pl1 = 'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u';
@@ -22,9 +23,14 @@ const errors = {
 }
 
 const getData = async () => {
-    const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
-    const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
-    const b3 = M3uParser.parse(await (await fetch(pl3).then(r => r.blob())).text());
+    // const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
+    // const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
+    const f = await fetch(pl3).then(r => r.blob());
+    console.log(f);
+    const b = await f.text()
+    console.log(b);
+    const b3 = M3uParser.parse(b);
+    console.log(b3)
 
     const result = [];
 
@@ -72,19 +78,19 @@ const getData = async () => {
                         const v = a.split(',')
                             .find(b => b.indexOf('RESOLUTION') !== -1);
 
-                        if(v){
+                        if (v) {
                             const ad = v.replace('RESOLUTION=', '');
-                            if(ad && ad.indexOf('chunklist') === -1){
+                            if (ad && ad.indexOf('chunklist') === -1) {
                                 item.attributes.resolution = ad;
                             }
                         }
 
-                        if(!excluded.some( (a) => res.url.indexOf(a) !== -1)){
+                        if (!excluded.some((a) => res.url.indexOf(a) !== -1)) {
                             // if(a.medias){
                             //     a.medias.forEach(c => c.attributes.resolution)
                             //     console.log(item.attributes.resolution);
                             // }
-                            if(res.redirected){
+                            if (res.redirected) {
                                 item.location = res.url.indexOf('.m3u8') === -1 ? res.url + '.m3u8' : res.url
                             }
                             res2.push(item);
@@ -103,12 +109,12 @@ const getData = async () => {
 
 
     res2.sort((a, b) => {
-        if(a.attributes.resolution && b.attributes.resolution){
-            if(parseInt(
+        if (a.attributes.resolution && b.attributes.resolution) {
+            if (parseInt(
                 a.attributes.resolution.split('x')[0]
             ) < parseInt(
                 b.attributes.resolution.split('x')[0]
-            )){
+            )) {
                 return -1;
             }
             return 1;
@@ -117,17 +123,16 @@ const getData = async () => {
 
     }).forEach((item) => {
         if (!playlist.medias.some(a => a.location.trim() === item.location.trim())) {
-            if(!playlist.medias.some(a => a.name.trim() === item.name.trim())){
+            if (!playlist.medias.some(a => a.name.trim() === item.name.trim())) {
                 playlist.medias.push(item)
             }
         }
     })
 
-    console.log(playlist.medias);
     console.log('duplicated: ' + res2.length);
     console.log('END: ' + playlist.medias.length);
-    fs.writeFileSync('../public/errors.json', JSON.stringify(errors));
-    fs.writeFileSync('../public/west.m3u', playlist.getM3uString());
+    fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
+    fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), playlist.getM3uString());
 }
 
 module.exports = getData;
