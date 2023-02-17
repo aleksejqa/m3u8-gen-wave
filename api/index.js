@@ -3,7 +3,7 @@ const getData = require("./update");
 const fs = require('fs');
 
 const app = express();
-app.get(express.static('public'))
+
 app.get('/', async (req,res) => {
     let time = '';
     try {
@@ -13,12 +13,12 @@ app.get('/', async (req,res) => {
         time = 'currently no files';
     }
 
-    res.send(`<div><div>${time}</div><ul><li><a href="/update">Update</a></li><li><a href="/f/west.m3u">get</a></li></ul></div>`)
+    res.send(`<div><div>${time}</div><ul><li><a href="/update">Update</a></li><li><a href="/public/west.m3u">get</a></li></ul></div>`)
 })
 app.get('/update', (req, res) => {
     getData();
     res.send('<div><button onclick="window.location.href=`/`; return false;">back</button><span>updating...</span></div>');
 })
-app.use('/f', express.static('public'))
+app.use(express.static('public'))
 
 module.exports = app;
