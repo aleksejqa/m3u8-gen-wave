@@ -22,13 +22,11 @@ const errors = {
     500: er["500"],
 }
 
-const getData = async () => {
+module.exports = async (request, response) => {
     // const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
     // const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
     const f = await fetch(pl3).then(r => r.blob());
-    console.log(f);
     const b = await f.text()
-    console.log(b);
     const b3 = M3uParser.parse(b);
     console.log(b3)
 
@@ -129,10 +127,10 @@ const getData = async () => {
         }
     })
 
-    console.log('duplicated: ' + res2.length);
-    console.log('END: ' + playlist.medias.length);
     fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
     fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), playlist.getM3uString());
+    response.send(`<div>
+                <button onclick="window.location.href=`/`; return false;">back</button>
+                <span>updated ${playlist.medias.length}</span>
+            </div>`);
 }
-
-module.exports = getData;
