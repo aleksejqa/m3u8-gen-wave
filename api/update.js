@@ -1,5 +1,5 @@
 const {M3uParser, M3uPlaylist} = require("m3u-parser-generator");
-const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const fs = require('fs');
 const er = require('../public/errors.json');
 const pl1 = 'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u';
