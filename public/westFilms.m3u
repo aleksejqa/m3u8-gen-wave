@@ -1,6 +1,5 @@
 #EXTM3U
 #PLAYLIST:West playlist2
 
-#EXTINF:-1 tvg-logo="https://static.hdrezka.ac/i/2022/11/9/lfc24adaa6bf9le85o65x.jpg",Чёрная Пантера: Ваканда навеки
+#EXTINF:-1 group-title="Films" tvg-id="film1" tvg-logo="https://static.hdrezka.ac/i/2022/11/9/lfc24adaa6bf9le85o65x.jpg",Чёрная Пантера: Ваканда навеки
 https://tau.stream.voidboost.cc/2fb552f883880612bb632289e4f15692:2023021901:4026866d-833a-484e-b49c-c290736a476d/7/5/7/6/1/3/kfpmh.mp4:hls:manifest.m3u8
-
