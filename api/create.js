@@ -11,7 +11,7 @@ const playlist = new M3uPlaylist();
 playlist.title = 'West playlist2';
 
 async function fetchWithTimeout(resource, options = {}) {
-    const {timeout = 7000} = options;
+    const {timeout = 5000} = options;
 
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), timeout);
@@ -46,13 +46,14 @@ module.exports = (async () => {
                     playlist.medias.push({
                         name: name,
                         location: st.url,
-                        group: categories[0],
+                        group: categories.join(';'),
+                        duration: -1,
                         attributes: {
                             "tvg-id": id,
-                            "tvg-language": languages[0],
+                            "tvg-language": languages.join(';'),
                             "tvg-country": country,
                             "tvg-logo": logo,
-                            "group-title": categories[0]
+                            "group-title": categories.join(';')
                         }
                     })
                 }
