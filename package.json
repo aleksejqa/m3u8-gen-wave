@@ -11,7 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.0",
+    "epg-parser": "^0.2.0",
+    "ffmpeg": "^0.0.4",
     "m3u-parser-generator": "^1.2.0",
+    "iptv-checker-module": "^2.0.5",
+    "cli-progress": "^3.11.2",
     "chromecast-js": "^0.1.7"
   }
 }
