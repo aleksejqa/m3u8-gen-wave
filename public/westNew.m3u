@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"#EXTM3U
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
 #PLAYLIST:West playlist2
 #EXTINF:-1 tvg-id="100News.ua" tvg-language="ukr" tvg-country="UA" tvg-logo="https://i.imgur.com/wEou5az.png" group-title="news",100% News
 #EXTGRP:news
