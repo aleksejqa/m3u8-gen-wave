@@ -4,9 +4,14 @@ const cliProgress = require('cli-progress');
 const path = require('path');
 const fs = require('fs');
 const er = require('../public/errors.json');
-const pl1 = 'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u';
-// const pl2 = 'https://mater.com.ua/ip/iptv-s-2021.m3u';
-const pl3 = 'https://tva.in.ua/iptv/iptv_ukr.m3u';
+
+const pList = [
+    'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u',
+    'http://gavrilovka.org/_ld/3/387_TV.m3u',
+    'https://tva.in.ua/iptv/iptv_ukr.m3u',
+    'https://gavrilovka.net/pl/AnonymousTV.m3u',
+    'https://gavrilovka.net/pl/FPS.m3u'
+]
 const urlTvg = 'https://iptvx.one/epg/epg.xml.gz';
 
 const playlist = new M3uPlaylist();
@@ -41,38 +46,21 @@ async function fetchWithTimeout(resource, options = {}) {
     return response;
 }
 
-const superTrim = (str) => {
-    const a = str.trim().replace(' (720p)', '')
-        .replace(' (1080p)', '')
-        .replace(' (504p)', '')
-        .replace(' (576p)', '')
-        .replace(' [Geo-blocked]', '')
-        .replace(' (2160p)', '')
-        .replace(' [Not 24/7]', '')
-        .replace(' (360p)', '')
-        .replace(' (480p)', '').toLowerCase();
-    return a;
-}
 module.exports = (async () => {
-    const channels = await fetch('https://iptv-org.github.io/api/channels.json').then(r => r.json());
-    const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
-    // const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
-    const b3 = M3uParser.parse(await (await fetch(pl3).then(r => r.blob())).text());
+    const medias = [];
+
+    for (const p of pList) {
+        const {medias: m} = M3uParser.parse(await (await fetch(p).then(r => r.blob())).text())
+        medias.push(...m)
+    }
 
     const result = [];
-
-    const medias = [...b.medias, ...b3.medias];
-
 
     medias.sort((a, d) => a.name < d.name ? -1 : 1).forEach((item) => {
         if (!result.some(a => a.location.trim() === item.location.trim()) && !excluded.some(a => a.trim() === item.location.trim())) {
             result.push({
                 ...item,
                 name: item.name.trim()
-                    .replace(' r', '')
-                    .replace(' р', '')
-                    .replace(' Р', '')
-                    .replace(' (UA)', '')
                     .replace(' tva.org.ua', '')
                     .replace(' iptv.org.ua', '')
                     .replace(' tva.in.ua', ''),
@@ -87,29 +75,6 @@ module.exports = (async () => {
     const res2 = [];
 
     for (const item of result) {
-        const ch = channels.find(({name,id, alt_names}) => [name, id , ...alt_names].some(c => {
-            if (typeof c === "string") {
-                return c.trim().toLowerCase().indexOf(superTrim(item.name)) !== -1
-            } else {
-                if (c.value) {
-                    return c.value.trim().toLowerCase().indexOf(superTrim(item.name)) !== -1
-                } else {
-                    return false
-                }
-            }
-
-        }))
-        if (ch) {
-            item.attributes = {
-                "tvg-id": ch.id,
-                "tvg-language": ch.languages.join(';'),
-                "tvg-country": ch.country,
-                "tvg-logo": ch.logo,
-                "group-title": ch.categories.join(';')
-            }
-        }
-
-
         try {
             const res = (await fetchWithTimeout(item.location));
             const {status} = res
@@ -128,7 +93,7 @@ module.exports = (async () => {
                     } else {
                         if (!excluded.some((a) => res.url.indexOf(a) !== -1)) {
                             if (!item.attributes["group-title"]) {
-                                item.attributes["group-title"] = "УКРАИНА"
+                                item.attributes["group-title"] = "other"
                             }
                             res2.push(item);
                         }
@@ -149,14 +114,10 @@ module.exports = (async () => {
 
     bar1.stop();
 
-    res2.sort((a, b) => a.name < b.name ? -1 : 1).forEach((item) => {
-        if (!playlist.medias.some(a => a.location.trim() === item.location.trim())) {
-            playlist.medias.push(item)
-        }
-    })
+    playlist.medias = res2;
 
-    console.log('all medias ', +medias.length)
-    console.log('before clean duplicates: ' + res2.length);
+    console.log('all medias: ' + medias.length);
+    console.log('after clean duplicates: ' + result.length);
     console.log('end: ' + playlist.medias.length);
     fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
     fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), `#EXTM3U url-tvg="${urlTvg}"` + playlist.getM3uString());
