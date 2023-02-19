@@ -57,14 +57,16 @@ module.exports = (async () => {
 
     medias.sort((a, d) => a.name < d.name ? -1 : 1).forEach((item) => {
         if (!result.some(a => a.location.trim() === item.location.trim()) && !excluded.some(a => a.trim() === item.location.trim())) {
-            result.push({
-                ...item,
-                name: item.name.trim()
-                    .replace(' tva.org.ua', '')
-                    .replace(' iptv.org.ua', '')
-                    .replace(' tva.in.ua', ''),
-                location: item.location.trim()
-            })
+            if(item.location.indexOf('.mp4') === -1){
+                result.push({
+                    ...item,
+                    name: item.name.trim()
+                        .replace(' tva.org.ua', '')
+                        .replace(' iptv.org.ua', '')
+                        .replace(' tva.in.ua', ''),
+                    location: item.location.trim()
+                })
+            }
         }
     })
 
