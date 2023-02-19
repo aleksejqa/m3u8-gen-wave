@@ -7,12 +7,11 @@ const er = require('../public/errors.json');
 
 const pList = [
     'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u',
-    'http://gavrilovka.org/_ld/3/387_TV.m3u',
     'https://tva.in.ua/iptv/iptv_ukr.m3u',
     'https://gavrilovka.net/pl/AnonymousTV.m3u',
-    'https://gavrilovka.net/pl/FPS.m3u'
+    'https://gavrilovka.net/pl/FPS.m3u',
+    'https://cutt.ly/D3Bc4PO'
 ]
-const urlTvg = 'https://iptvx.one/epg/epg.xml.gz';
 
 const playlist = new M3uPlaylist();
 playlist.title = 'West playlist';
@@ -120,5 +119,5 @@ module.exports = (async () => {
     console.log('after clean duplicates: ' + result.length);
     console.log('end: ' + playlist.medias.length);
     fs.writeFileSync(path.join(__dirname, '..', '/public/errors.json'), JSON.stringify(errors));
-    fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), `#EXTM3U url-tvg="${urlTvg}"` + playlist.getM3uString());
+    fs.writeFileSync(path.join(__dirname, '..', '/public/west.m3u'), playlist.getM3uString());
 })()
