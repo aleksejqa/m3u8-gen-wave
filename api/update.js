@@ -1,14 +1,13 @@
 const {M3uParser, M3uPlaylist} = require("m3u-parser-generator");
-const parse = (...args) => import('epg-parser').then(({parse: parse}) => parse(...args));
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const cliProgress = require('cli-progress');
 const path = require('path');
 const fs = require('fs');
 const er = require('../public/errors.json');
 const pl1 = 'https://tva.in.ua/iptv/s/Sam.ob_2.2021.m3u';
-const pl2 = 'https://mater.com.ua/ip/iptv-s-2021.m3u';
+// const pl2 = 'https://mater.com.ua/ip/iptv-s-2021.m3u';
 const pl3 = 'https://tva.in.ua/iptv/iptv_ukr.m3u';
-const urlTvg = 'https://iptvx.one/epg/epg.xml.g';
+const urlTvg = 'https://iptvx.one/epg/epg.xml.gz';
 
 const playlist = new M3uPlaylist();
 playlist.title = 'West playlist';
@@ -55,15 +54,14 @@ const superTrim = (str) => {
     return a;
 }
 module.exports = (async () => {
+    const channels = await fetch('https://iptv-org.github.io/api/channels.json').then(r => r.json());
     const b = M3uParser.parse(await (await fetch(pl1).then(r => r.blob())).text());
-    const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
+    // const b2 = M3uParser.parse(await (await fetch(pl2).then(r => r.blob())).text());
     const b3 = M3uParser.parse(await (await fetch(pl3).then(r => r.blob())).text());
-
-    const epg = await parse(fs.readFileSync(path.join(__dirname, '..', '/epg_lite.xml'), {encoding: 'utf-8'}));
 
     const result = [];
 
-    const medias = [...b.medias, ...b2.medias, ...b3.medias];
+    const medias = [...b.medias, ...b3.medias];
 
 
     medias.sort((a, d) => a.name < d.name ? -1 : 1).forEach((item) => {
@@ -89,7 +87,7 @@ module.exports = (async () => {
     const res2 = [];
 
     for (const item of result) {
-        const ch = epg.channels.find(({name}) => name.some(c => {
+        const ch = channels.find(({name,id, alt_names}) => [name, id , ...alt_names].some(c => {
             if (typeof c === "string") {
                 return c.trim().toLowerCase().indexOf(superTrim(item.name)) !== -1
             } else {
@@ -102,8 +100,13 @@ module.exports = (async () => {
 
         }))
         if (ch) {
-            item.attributes["tvg-id"] = ch.id;
-            item.attributes["tvg-logo"] = ch.icon[0];
+            item.attributes = {
+                "tvg-id": ch.id,
+                "tvg-language": ch.languages.join(';'),
+                "tvg-country": ch.country,
+                "tvg-logo": ch.logo,
+                "group-title": ch.categories.join(';')
+            }
         }
 
 

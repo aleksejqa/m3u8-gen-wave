@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
-const urlTvg = 'https://iptvx.one/epg/epg.xml.g';
+const urlTvg = 'https://iptvx.one/epg/epg.xml.gz';
 
 const playlist = new M3uPlaylist();
 playlist.title = 'West playlist2';
