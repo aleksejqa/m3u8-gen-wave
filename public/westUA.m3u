@@ -1,0 +1,300 @@
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+#PLAYLIST:West playlist UA
+#EXTINF:-1 group-title="УКРАИНА",1 Городской Одесса HD
+http://portal.ott.pink/watch/7408/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:0 ,1+1 HD
+http://91.146.94.234:10001/play/a04i
+#EXTINF:-1 ,2+2
+http://91.146.94.234:10001/play/a04r
+#EXTINF:-1 ,24 Канал
+http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
+#EXTINF:0 group-title="УКРАИНА",33 канал (Хмельницький)
+https://33news.org/33chanel/live/chunklist_w459617257.m3u8
+#EXTINF:-1 group-title="УКРАИНА",4 канал HD UA
+http://portal.ott.pink/watch/6987/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",5 Канал
+http://portal.ott.pink/watch/7/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",7 канал
+http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ANIMAL PLANET HD
+http://185.32.44.154/animalplanet/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Animal Planet
+https://edge02.smart.az/o5/animalplanet/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",BOLT R
+https://edge02.smart.az/o4/mtvhits/playlist.m3u8
+#EXTINF:-1 ,Bollywood HD
+http://195.189.60.181:312/491/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Bollywood HD
+https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
+#EXTINF:-1 group-title="УКРАИНА",D1
+http://portal.ott.pink/watch/7494/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Discovery
+https://edge02.smart.az/o5/discovery/playlist.m3u8
+#EXTINF:-1 ,Discovery Central Europe HD
+http://91.146.94.234:10001/play/a041
+#EXTINF:-1 group-title="УКРАИНА",Discovery Science
+https://edge02.smart.az/o3/discoveryscience/playlist.m3u8
+#EXTINF:-1 ,Discovery Turbo Xtra HD
+http://91.146.94.234:10001/play/a05d
+#EXTINF:-1 ,Enter-фільм HD
+http://195.189.60.181:312/44/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Eurosport 1 HD
+http://91.146.94.234:10001/play/a05b
+#EXTINF:-1 group-title="СПОРТ",Eurosport 1 HD
+http://195.189.60.181:312/78/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Eurosport 2
+http://91.146.94.234:10001/play/a05c
+#EXTINF:-1 group-title="СПОРТ",Eurosport 2 HD
+http://195.189.60.181:312/207/index.m3u8
+#EXTINF:-1 ,FOX HD
+http://195.189.60.181:312/525/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",FOX HD
+https://sc.id-tv.kz/FOX_HD_34_35.m3u8
+#EXTINF:-1 ,FOX Life HD
+http://195.189.60.181:312/528/index.m3u8
+#EXTINF:-1 ,FREEДОМ
+https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8
+#EXTINF:-1 group-title="УКРАИНА",FREEДОМ - UATV Channel
+http://portal.ott.pink/watch/7431/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",History
+http://185.32.44.154/history/index.m3u8
+#EXTINF:-1 ,Hollywood
+http://37.17.14.149:8903/play/a009
+#EXTINF:-1 ,I-UA TV HD
+http://kie2.cdn.i-ua.tv/hlsme/iuatv_1080p.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ICTV
+http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,ICTV
+http://91.146.94.234:10001/play/a04k
+#EXTINF:-1 group-title="УКРАИНА",ITV (Рівне)
+http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ITV HD
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",InRating TV
+https://inrating-tv.cdn-04.cosmonova.net.ua/hls/inrating-tv_ua_hi/index.m3u8
+#EXTINF:-1 ,Investigation Discovery HD
+http://91.146.94.234:10001/play/a045
+#EXTINF:0 ,K1
+http://91.146.94.234:10001/play/a052
+#EXTINF:-1 ,M 1
+http://91.146.94.234:10001/play/a04s
+#EXTINF:-1 ,M2 HD
+http://195.189.60.181:312/67/index.m3u8
+#EXTINF:-1 ,MTV Non-stop nostalgia
+http://91.146.94.234:10001/play/a03k
+#EXTINF:-1 group-title="УКРАИНА",Nat Geo Wild HD
+https://edge02.smart.az/o3/natgeowild/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",National Geographic
+https://edge02.smart.az/o3/natgeo/playlist.m3u8
+#EXTINF:-1 group-title="ДІТИ",Nick jr
+http://195.189.60.181:312/335/index.m3u8
+#EXTINF:-1 group-title="ДІТИ",Nickelodeon HD
+http://195.189.60.181:312/92/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",OBOZ TV
+http://player.obozrevatel.com/live2/stream.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="УКРАИНА",Relax
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 ,Science Europe HD
+http://91.146.94.234:10001/play/a03q
+#EXTINF:-1 group-title="СПОРТ",Setanta Sports + UA
+https://bal.varcdn.top/setantaplusukraina/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Setanta Sports 1
+https://livetv.mylifeisgood.ml/channels/setantahd.m3u8
+#EXTINF:-1 group-title="СПОРТ",Setanta Sports 2
+https://livetv.mylifeisgood.ml/channels/setantaplus.m3u8
+#EXTINF:-1 group-title="СПОРТ",Setanta Sports Ukraine HD
+http://195.189.60.181:312/141/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Setanta Sports Ukraine HD orig
+https://bal.varcdn.top/setantasport/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",TV 1000 Action2
+https://edge02.smart.az/o5/tv1000action/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",TV 1000 Action3
+https://sc.id-tv.kz:443/TV1000Action_34_35.m3u8
+#EXTINF:-1 ,TV 1000 HD
+http://195.189.60.181:312/39/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",TV1000
+https://edge02.smart.az/o5/tv1000/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",TV1000 Action
+http://176.74.80.162:8099/TV1000Action/index.m3u8
+#EXTINF:-1 ,Travel Channel HD
+http://91.146.94.234:10001/play/a04c
+#EXTINF:-1 ,UA Перший
+http://91.146.94.234:10001/play/a04d
+#EXTINF:-1 group-title="УКРАИНА",VIP Megahit
+https://edge02.smart.az/o6/tv1000megahit/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",VIP Premiere HD
+https://edge02.smart.az/o6/vippremierhd/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Viasat History
+https://edge02.smart.az/o5/viasathistory/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Viasat Nature
+https://edge02.smart.az/o5/viasatnature/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Vip Comedy HD
+https://edge02.smart.az/o6/tv1000comedy/playlist.m3u8
+#EXTINF:-1 group-title="СПОРТ",XSPORT UA
+http://91.146.94.234:10001/play/a056
+#EXTINF:-1 group-title="СПОРТ",XSPORT UA HD
+http://195.189.60.181:312/504/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Xsport
+http://91.146.94.234:10001/play/a059
+#EXTINF:-1 group-title="УКРАИНА",Інтер
+http://portal.ott.pink/watch/7316/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Аверс
+http://portal.ott.pink/watch/356/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Аверс (Луцьк)
+https://avers.pp.ua/hls/efir.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Апостроф TV
+http://portal.ott.pink/watch/7485/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Армія ТВ HD
+http://portal.ott.pink/watch/7572/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Белсат HD
+http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",ВСЕ ТВ 15.02.23
+https://iptv.org.ua/wp-content/uploads/2022/01/Moyo-slayd33-shou.mp4
+#EXTINF:-1 ,Вкусная еда HD
+http://195.189.60.181:312/912/index.m3u8
+#EXTINF:0 group-title="УКРАИНА",ГІТ (Волинь)
+http://stream.uagit.tv/gittv.m3u8?key=iptv.org.ua
+#EXTINF:-1 group-title="УКРАИНА",ГРОМАДСЬКЕ ІНТЕРАКТИВНЕ ТЕЛЕБАЧЕННЯ (Луцьк)
+https://stream.uagit.tv/gittv.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="УКРАИНА",Галичина HD
+http://portal.ott.pink/watch/116/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,Дизайн HD
+http://195.189.60.181:312/924/index.m3u8
+#EXTINF:0 group-title="УКРАИНА",Дніпро TV HD
+http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Думская ТВ
+http://cdn1.live-tv.od.ua:8081/dumska/dumska720p/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Еврокино
+http://91.220.135.165:81/30/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Еспресо HD
+http://portal.ott.pink/watch/10/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,Загородная жизнь HD
+http://195.189.60.181:312/923/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Закон-ТВ HD
+http://portal.ott.pink/watch/7506/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,Здоровья HD
+http://195.189.60.181:312/920/index.m3u8
+#EXTINF:0 ,Квартал ТВ
+http://195.189.60.181:312/456/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Київ
+http://portal.ott.pink/watch/7410/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="РАДІО",Львивська Хвиля?
+http://onair.lviv.fm:8000/lviv.fm
+#EXTINF:-1 ,М1 HD
+http://195.189.60.181:312/17/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",М2
+http://live.m2.tv/hls3/720/stream.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Масон
+http://portal.ott.pink/watch/117/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,Мега
+http://91.146.94.234:10001/play/a04u
+#EXTINF:0 ,Медицинские сериалы HD
+http://195.189.60.181:312/900/index.m3u8
+#EXTINF:-1 ,Международная кухня HD
+http://195.189.60.181:312/918/index.m3u8
+#EXTINF:0 ,Мелодрама HD
+http://195.189.60.181:312/890/index.m3u8
+#EXTINF:-1 group-title="ДІТИ",Мультфільми HD
+http://195.189.60.181:312/556/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",НТК
+http://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 group-title="УКРАИНА",НТК Коломия
+https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 ,НТН
+http://91.146.94.234:10001/play/a04t
+#EXTINF:-1 group-title="УКРАИНА",Надия/N.K.
+http://nadiya.home-net.com.ua/mob/mystream.m3u8
+#EXTINF:-1 ,Наука
+http://195.189.60.181:312/423/index.m3u8
+#EXTINF:-1 ,Новий канал
+http://91.146.94.234:10001/play/a04o
+#EXTINF:-1 ,Новий канал HD
+http://195.189.60.181:312/5/index.m3u8
+#EXTINF:-1 group-title="РАДІО",Обозреватель - BossaNova
+http://music.myradio.ua:8000/bossanova192.mp3?key=iptv.org.ua
+#EXTINF:-1 group-title="РАДІО",Обозреватель - Украинская свадьба
+http://music.myradio.ua:8000/ukrainian_wedding192.mp3?key=iptv.org.ua
+#EXTINF:-1 group-title="РАДІО",Обозреватель - Украинский хит
+http://music.myradio.ua:8000/UkrPophit192.mp3?key=iptv.org.ua
+#EXTINF:-1 group-title="ДІТИ",ПЛЮС ПЛЮС HD
+http://91.146.94.234:10001/play/a04v
+#EXTINF:-1 ,Педиатрия HD
+http://195.189.60.181:312/922/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Первый Городской Одесса
+http://cdn1.live-tv.od.ua:8081/1tvod/1tvod-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Первый городской Кривийіг
+http://cdn1.live-tv.od.ua:8081/1tvkr/1tvkr-abr/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Перший HD
+http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Полезная еда HD
+http://195.189.60.181:312/917/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Полтавское ТВ
+http://cdn10.live-tv.od.ua:8081/hrpl/720p/playlist.m3u8
+#EXTINF:-1 group-title="РАДІО",Промінь
+http://portal.ott.pink/watch/201/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Прямий HD
+http://portal.ott.pink/watch/14/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",Прямый
+http://95.67.21.100/hls/prm_ua_hi/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 ,Психология HD
+http://195.189.60.181:312/921/index.m3u8
+#EXTINF:-1 group-title="ДІТИ",Піксель
+http://91.146.94.234:10001/play/a057
+#EXTINF:-1 group-title="ДІТИ",Піксель HD
+http://195.189.60.181:312/47/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Рада
+http://portal.ott.pink/watch/7418/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="РАДІО",Радио Блиц FM (Белая Церковь)
+http://stream.blits-fm.ua/stream320
+#EXTINF:-1 group-title="РАДІО",Радио Вголос (Львов)
+https://cast108372.customer.uar.net/vgolos320
+#EXTINF:-1 group-title="РАДІО",Радио Люкс FM (Львов)
+https://streamvideo.luxnet.ua/luxlviv/luxlviv.stream/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",СК1 (Житомир)
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr-lq/playlist.m3u8
+#EXTINF:-1 ,СТБ
+http://91.146.94.234:10001/play/a04l
+#EXTINF:-1 ,Садоводство HD
+http://195.189.60.181:312/925/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Сварожичи
+http://tv.tv-project.com:1935/live/live2/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Сварожичи ТВ
+http://tv.tv-project.com:1935/live/live1/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Сварожичи ТВ UA HD
+http://80.91.177.102:1935/live/live1/playlist.m3u8
+#EXTINF:-1 group-title="СПОРТ",Спорт 1
+https://bal.varcdn.top/sport1/index.m3u8
+#EXTINF:-1 group-title="СПОРТ",Спорт-2
+http://bal.varcdn.top/sport2/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Суспільне Київ HD
+http://portal.ott.pink/watch/7592/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 ,Суспільне Культура
+http://91.146.94.234:10001/play/a04j
+#EXTINF:-1 group-title="УКРАИНА",Сфера ТВ
+http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ТВА
+http://rtsp.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ТВА
+http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
+#EXTINF:0 ,ТЕТ
+http://91.146.94.234:10001/play/a04p
+#EXTINF:-1 group-title="УКРАИНА",ТИС-ТВ (Одесса)
+http://cdn10.live-tv.od.ua:8081/riood/tisod-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="УКРАИНА",ТРК Київ
+http://portal.ott.pink/watch/7410/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="УКРАИНА",ТРК Надія - Новий Канал (Первомайский)
+http://178.217.215.57/mob/mystream.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Тернопiль 1 HD
+http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="УКРАИНА",Тернополь 1
+http://185.53.79.12/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 ,Трофей HD
+http://195.189.60.181:312/451/index.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Уніaн
+http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="СПОРТ",Фан Спорт 2.
+https://live-k2309-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+#EXTINF:-1 group-title="СПОРТ",Фан Спорт.
+https://live-k2311-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+#EXTINF:-1 group-title="УКРАИНА",Чернівецький Промінь HD
+http://portal.ott.pink/watch/131/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
