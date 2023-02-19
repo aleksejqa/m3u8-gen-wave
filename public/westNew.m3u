@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.g"#EXTM3U
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"#EXTM3U
 #PLAYLIST:West playlist2
 #EXTINF:-1 tvg-id="100News.ua" tvg-language="ukr" tvg-country="UA" tvg-logo="https://i.imgur.com/wEou5az.png" group-title="news",100% News
 #EXTGRP:news
@@ -141,9 +141,6 @@ http://89.218.30.37/ktklive/live.hq/playlist.m3u8
 http://kiev1-cdn.lanet.tv/live/1008.m3u8
 #EXTINF:-1 tvg-id="LifeTV.ee" tvg-language="rus" tvg-country="EE" tvg-logo="https://i.imgur.com/JhrTB82.png" group-title="",Life TV
 https://lifetv.bitflip.ee/live/stream1.m3u8
-#EXTINF:-1 tvg-id="LoveNature.ca" tvg-language="eng;zho;tur;bul;ces;hun;rus;spa" tvg-country="CA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" group-title="outdoor",Love Nature
-#EXTGRP:outdoor
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dd6b1da79e4d0007309455/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="LuxeTV.lu" tvg-language="eng;zho;fra;rus" tvg-country="LU" tvg-logo="https://i.imgur.com/24ehonx.png" group-title="",Luxe TV
 https://alchimie-luxe-uk-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="M2.ua" tvg-language="ukr" tvg-country="UA" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="music",M2
@@ -269,8 +266,6 @@ http://air.tvk6.ru/tvk24/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-language="ukr" tvg-country="UA" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="general",UATV
 #EXTGRP:general
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-id="UniverTV.ru" tvg-language="rus" tvg-country="RU" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="",Univer TV
-https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Vetta24.ru" tvg-language="rus" tvg-country="RU" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="",Vetta 24
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="VIVARussia.ru" tvg-language="rus" tvg-country="RU" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="music",VIVA Russia
