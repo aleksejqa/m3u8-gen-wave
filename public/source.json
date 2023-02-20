@@ -1,0 +1,660 @@
+[
+  {
+    "name": ".black",
+    "location": "http://176.74.80.162:8099/SonyTurbo/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": ".sci-fi",
+    "location": "http://176.74.80.162:8099/SonySciFi/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "1+1",
+    "location": "http://91.146.94.234:10001/play/a04i",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "2+2",
+    "location": "http://91.146.94.234:10001/play/a04r",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "2x2",
+    "location": "https://bl.uma.media/live/317805/HLS/317805_3/1/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "A1",
+    "location": "http://185.32.44.154/amedia1/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "A2",
+    "location": "http://185.32.44.154/amedia2/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "AMEDIA HIT",
+    "location": "http://185.32.44.154/amediahit/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Animal Planet",
+    "location": "http://185.32.44.154/animalplanet/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "BOLT",
+    "location": "http://195.189.60.181:312/503/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Hollywood HD",
+    "location": "http://195.189.60.181:312/491/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "CINEMA",
+    "location": "http://176.74.80.162:8099/Cinema/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Da Vinci Kids",
+    "location": "http://flu.ttk.mx:9090/DaVinci/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Da Vinci Learning",
+    "location": "http://176.74.80.162:8099/DaVinciLearning/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Discovery",
+    "location": "https://edge02.smart.az/o5/discovery/playlist.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Discovery Science",
+    "location": "http://185.32.44.154/discoveryscience/index.m3u8",
+    "attributes": {
+      "group-title": "other"
+    }
+  },
+  {
+    "name": "Disney",
+    "location": "http://flu.ttk.mx:9090/Disney/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Enter-фільм",
+    "location": "http://195.189.60.181:312/44/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Epic Drama",
+    "location": "http://195.189.60.181:312/514/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Eurosport 1",
+    "location": "http://195.189.60.181:312/78/index.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "Eurosport 2",
+    "location": "http://195.189.60.181:312/207/index.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "FOX HD",
+    "location": "http://195.189.60.181:312/525/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "FOX Life HD",
+    "location": "http://195.189.60.181:312/528/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Filmbox",
+    "location": "rtmp://188.93.94.42//filmbox",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Galaxy",
+    "location": "http://flu.ttk.mx:9090/Galaxy/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Gulli",
+    "location": "http://195.189.60.181:312/378/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "History",
+    "location": "http://185.32.44.154/history/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Hollywood",
+    "location": "http://195.189.60.181:312/263/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Investigation Discovery HD",
+    "location": "http://91.146.94.234:10001/play/a045",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "K1",
+    "location": "http://91.146.94.234:10001/play/a052",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Nat Geo Wild",
+    "location": "http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "National Geographic HD",
+    "location": "http://195.189.60.181:312/143/index.m3u8",
+    "attributes": {
+      "group-title": "other"
+    }
+  },
+  {
+    "name": "Nick jr",
+    "location": "http://195.189.60.181:312/335/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Nickelodeon HD",
+    "location": "http://195.189.60.181:312/92/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Nicktoons",
+    "location": "http://195.189.60.181:312/58/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Setanta Sports +",
+    "location": "https://bal.varcdn.top/setantaplusukraina/index.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "Setanta Sports",
+    "location": "http://195.189.60.181:312/141/index.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "TV XXI",
+    "location": "http://185.32.44.154/tv21/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "TV1000 Action HD",
+    "location": "https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "TV1000 CEE",
+    "location": "http://195.189.60.181:312/39/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "TV1000 HD",
+    "location": "https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Travel+Adventure",
+    "location": "http://live-1.otcnet.ru/tadtmf/tracks-v1a1/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "VIP Comedy HD",
+    "location": "https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "VIP Comedy CEE HD",
+    "location": "http://195.189.60.181:312/454/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "VIP Megahit HD",
+    "location": "https://bl.uma.media/live/485537/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "VIP Megahit CEE HD",
+    "location": "http://195.189.60.181:312/224/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "VIP Premiere HD",
+    "location": "https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "VIP Serial HD",
+    "location": "https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Viasat Explore CEE",
+    "location": "http://195.189.60.181:312/36/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat Explore",
+    "location": "https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat History CEE",
+    "location": "http://195.189.60.181:312/37/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat History",
+    "location": "https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat Nature CEE",
+    "location": "http://195.189.60.181:312/421/index.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat Nature",
+    "location": "https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Viasat Sport",
+    "location": "http://flu.ttk.mx:9090/Viasat_Sport/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "Viasat Sport HD",
+    "location": "https://bl.uma.media/live/485548/HLS/4614144_3,2883584/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "X-Files",
+    "location": "https://tv.2222.one/ch4.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "XSport HD",
+    "location": "http://iptv.prosto.tv:7000/ch110/video.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "Друзья",
+    "location": "https://tv.2222.one/ch10.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "ЕВРОКИНО",
+    "location": "http://185.32.44.154/eurokino/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Иллюзион+",
+    "location": "http://185.32.44.154/illuzion/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Квартал ТВ",
+    "location": "http://195.189.60.181:312/456/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Кино 1 International",
+    "location": "https://kino-1.catcast.tv/content/38617/index.m3u8?cur=tva.org.ua&key=3i277",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Кино 1 International HD",
+    "location": "http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Кинокомедия",
+    "location": "http://185.32.44.154/kinokomedia/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Киносемья",
+    "location": "http://185.32.44.154/kinosemya/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Кинохит",
+    "location": "http://185.32.44.154/kinoxit/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Киномикс",
+    "location": "http://185.32.44.154/kinomiks/index.m3u8?token=iptv.org.ua",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Кинопремьера",
+    "location": "http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Киносвидание",
+    "location": "http://185.32.44.154/kinosvidanie/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Киносерия",
+    "location": "http://185.32.44.154/kinoseria/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Комедия",
+    "location": "http://flu.ttk.mx:9090/Komediya/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Любимое Кино",
+    "location": "http://185.32.44.154/lubimoekino/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Малдер",
+    "location": "https://v2.catcast.tv/content/41621/index.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Матч! HD",
+    "location": "https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8",
+    "attributes": {
+      "group-title": "sport"
+    }
+  },
+  {
+    "name": "Мега",
+    "location": "http://91.146.94.234:10001/play/a04u",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Мультфільми HD",
+    "location": "http://195.189.60.181:312/556/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "НТН",
+    "location": "http://195.189.60.181:312/8/index.m3u8",
+    "attributes": {
+      "group-title": "other"
+    }
+  },
+  {
+    "name": "Наука",
+    "location": "http://195.189.60.181:312/423/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Новий канал",
+    "location": "http://195.189.60.181:312/5/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "Остросюжетное HD",
+    "location": "http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "ПЛЮС ПЛЮС",
+    "location": "http://91.146.94.234:10001/play/a04v",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "Премиальное HD",
+    "location": "http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8",
+    "attributes": {
+      "group-title": "film"
+    }
+  },
+  {
+    "name": "Пятница HD",
+    "location": "https://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "Піксель HD",
+    "location": "http://195.189.60.181:312/47/index.m3u8",
+    "attributes": {
+      "group-title": "kids"
+    }
+  },
+  {
+    "name": "СТБ HD",
+    "location": "http://91.146.94.234:10001/play/a04l",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "СТС Love",
+    "location": "http://flu.ttk.mx:9090/STS_Love/index.m3u8?token=orh6o",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "Суббота HD",
+    "location": "https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "ТВ3 HD",
+    "location": "https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "ТЕТ",
+    "location": "http://91.146.94.234:10001/play/a04p",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  },
+  {
+    "name": "ТНТ",
+    "location": "https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "ТНТ4",
+    "location": "https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8",
+    "attributes": {
+      "group-title": "entertainment"
+    }
+  },
+  {
+    "name": "ТСВ",
+    "location": "https://iptv-hls.idc.md/hls/2/live2.m3u8",
+    "attributes": {
+      "group-title": "cognitive"
+    }
+  },
+  {
+    "name": "Трофей HD",
+    "location": "http://195.189.60.181:312/451/index.m3u8",
+    "attributes": {
+      "group-title": "ukraine"
+    }
+  }
+]

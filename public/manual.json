@@ -1,0 +1,1002 @@
+[
+  {
+    "location": "http://91.146.94.234:10001/play/a04i",
+    "duration": 0,
+    "attributes": {
+      "tvg-id": "1Plus1.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/eJXfMh0.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "1+1"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04r",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "2Plus2.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/v6KBgqk.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "2+2"
+  },
+  {
+    "location": "http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "24 Канал"
+  },
+  {
+    "location": "https://33news.org/33chanel/live/chunklist_w459617257.m3u8",
+    "duration": 0,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "33 канал"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/6987/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Channel34.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/IZAW42H.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "4 канал"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Channel5Ukraine.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/a9JJXPk.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "5 Канал"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Channel7Ukraine.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/9Ll0BIo.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "7 канал"
+  },
+  {
+    "location": "http://185.32.44.154/animalplanet/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ANIMAL PLANET HD"
+  },
+  {
+    "location": "https://edge02.smart.az/o4/mtvhits/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "BOLT R"
+  },
+  {
+    "location": "https://sc.id-tv.kz/bollywood_hd_34_35.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "BollywoodHD.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/scDKOLS.png",
+      "group-title": "movies"
+    },
+    "name": "Bollywood HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7494/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Volgograd1.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/1xlaImE.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "D1"
+  },
+  {
+    "location": "https://edge02.smart.az/o5/discovery/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "DiscoveryChannelRussia.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png",
+      "group-title": "entertainment"
+    },
+    "name": "Discovery"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a041",
+    "duration": -1,
+    "attributes": {},
+    "name": "Discovery Central Europe HD"
+  },
+  {
+    "location": "https://edge02.smart.az/o3/discoveryscience/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "DiscoveryScienceRussia.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png",
+      "group-title": "science"
+    },
+    "name": "Discovery Science"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a05d",
+    "duration": -1,
+    "attributes": {},
+    "name": "Discovery Turbo Xtra HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/44/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Enter-фільм HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/78/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Eurosport 1 HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/207/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Eurosport 2 HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/525/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "FOX HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/528/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "FOX Life HD"
+  },
+  {
+    "location": "https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "FREEДОМ"
+  },
+  {
+    "location": "http://185.32.44.154/history/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "HistoryRussia.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
+      "group-title": "documentary"
+    },
+    "name": "History"
+  },
+  {
+    "location": "http://37.17.14.149:8903/play/a009",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Hollywood.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/1j7cT2I.png",
+      "group-title": "movies"
+    },
+    "name": "Hollywood"
+  },
+  {
+    "location": "http://195.189.60.181:312/491/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "HollywoodHD.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/7fBRrTL.png",
+      "group-title": "movies"
+    },
+    "name": "Hollywood HD"
+  },
+  {
+    "location": "http://kie2.cdn.i-ua.tv/hlsme/iuatv_1080p.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "I-UA TV HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "ICTV.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/97W1NOW.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "ICTV"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ITV HD"
+  },
+  {
+    "location": "https://inrating-tv.cdn-04.cosmonova.net.ua/hls/inrating-tv_ua_hi/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "InRating TV"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a045",
+    "duration": -1,
+    "attributes": {},
+    "name": "Investigation Discovery HD"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a052",
+    "duration": 0,
+    "attributes": {
+      "tvg-id": "K1.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/VFECoes.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "K1"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04s",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "KinoJam1.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/6HQFM4m.png",
+      "group-title": "movies"
+    },
+    "name": "M 1"
+  },
+  {
+    "location": "http://195.189.60.181:312/67/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "M2 HD"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a03k",
+    "duration": -1,
+    "attributes": {},
+    "name": "MTV Non-stop nostalgia"
+  },
+  {
+    "location": "https://edge02.smart.az/o3/natgeowild/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Nat Geo Wild HD"
+  },
+  {
+    "location": "https://edge02.smart.az/o3/natgeo/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "NationalGeographicWildUkraine.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png",
+      "group-title": "documentary"
+    },
+    "name": "National Geographic"
+  },
+  {
+    "location": "http://195.189.60.181:312/335/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "NickJrCIS.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
+      "group-title": "kids"
+    },
+    "name": "Nick jr"
+  },
+  {
+    "location": "http://195.189.60.181:312/92/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "ДІТИ"
+    },
+    "name": "Nickelodeon HD"
+  },
+  {
+    "location": "http://player.obozrevatel.com/live2/stream.m3u8?cur=tva.org.ua&key=3i277",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "OBOZ TV"
+  },
+  {
+    "location": "http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8?cur=tva.org.ua&key=3i277",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "HQMRelax.es",
+      "tvg-language": "spa",
+      "tvg-country": "ES",
+      "tvg-logo": "https://i.imgur.com/31IXu3n.png",
+      "group-title": "music"
+    },
+    "name": "Relax"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a03q",
+    "duration": -1,
+    "attributes": {},
+    "name": "Science Europe HD"
+  },
+  {
+    "location": "https://bal.varcdn.top/setantaplusukraina/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Setanta Sports + UA"
+  },
+  {
+    "location": "https://livetv.mylifeisgood.ml/channels/setantahd.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "SetantaSports1Evraziya.ie",
+      "tvg-language": "rus;eng",
+      "tvg-country": "IE",
+      "tvg-logo": "https://i.imgur.com/zlJK7ca.png",
+      "group-title": "sports"
+    },
+    "name": "Setanta Sports 1"
+  },
+  {
+    "location": "https://livetv.mylifeisgood.ml/channels/setantaplus.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "SetantaSports2Evraziya.ie",
+      "tvg-language": "rus;eng",
+      "tvg-country": "IE",
+      "tvg-logo": "https://i.imgur.com/ouHunnK.png",
+      "group-title": "sports"
+    },
+    "name": "Setanta Sports 2"
+  },
+  {
+    "location": "http://195.189.60.181:312/141/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Setanta Sports Ukraine HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/39/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "TV 1000 HD"
+  },
+  {
+    "location": "https://edge02.smart.az/o5/tv1000/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "TV1000ActionEast.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/yvC11Dq.png",
+      "group-title": "movies"
+    },
+    "name": "TV1000"
+  },
+  {
+    "location": "http://176.74.80.162:8099/TV1000Action/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "TV1000ActionEast.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/yvC11Dq.png",
+      "group-title": "movies"
+    },
+    "name": "TV1000 Action"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04c",
+    "duration": -1,
+    "attributes": {},
+    "name": "Travel Channel HD"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04d",
+    "duration": -1,
+    "attributes": {},
+    "name": "UA Перший"
+  },
+  {
+    "location": "https://edge02.smart.az/o6/tv1000megahit/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "VIPMegahit.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/LdeDWed.png",
+      "group-title": "movies"
+    },
+    "name": "VIP Megahit"
+  },
+  {
+    "location": "https://edge02.smart.az/o6/vippremierhd/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "VIP Premiere HD"
+  },
+  {
+    "location": "https://edge02.smart.az/o5/viasathistory/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "ViasatHistoryRussia.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/VTpJ3De.png",
+      "group-title": "documentary"
+    },
+    "name": "Viasat History"
+  },
+  {
+    "location": "https://edge02.smart.az/o5/viasatnature/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "ViasatNatureHistoryHD.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/lkIhf9W.png",
+      "group-title": "documentary"
+    },
+    "name": "Viasat Nature"
+  },
+  {
+    "location": "https://edge02.smart.az/o6/tv1000comedy/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Vip Comedy HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/504/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "XSPORT UA HD"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a059",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "XSport.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/CHDcfrT.png",
+      "group-title": "sports"
+    },
+    "name": "Xsport"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7316/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Inter.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/kOW4SIP.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "Інтер"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/356/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Аверс"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7485/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "ApostrofTV.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/3bnT42d.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "Апостроф TV"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7572/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Армія ТВ HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Белсат HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/912/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Вкусная еда HD"
+  },
+  {
+    "location": "http://stream.uagit.tv/gittv.m3u8?key=iptv.org.ua",
+    "duration": 0,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ГІТ (Волинь)"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/116/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Галичина HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/924/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Дизайн HD"
+  },
+  {
+    "location": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
+    "duration": 0,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Дніпро TV HD"
+  },
+  {
+    "location": "http://cdn1.live-tv.od.ua:8081/dumska/dumska720p/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Думская ТВ"
+  },
+  {
+    "location": "http://91.220.135.165:81/30/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Evrokino.ru",
+      "tvg-language": "rus",
+      "tvg-country": "RU",
+      "tvg-logo": "https://i.imgur.com/8LPtPf6.png",
+      "group-title": "movies"
+    },
+    "name": "Еврокино"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/10/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Еспресо HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/923/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Загородная жизнь HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7506/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Закон-ТВ HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/920/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Здоровья HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/456/index.m3u8",
+    "duration": 0,
+    "attributes": {},
+    "name": "Квартал ТВ"
+  },
+  {
+    "location": "http://195.189.60.181:312/17/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "М1 HD"
+  },
+  {
+    "location": "http://live.m2.tv/hls3/720/stream.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "М2"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/117/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Масон"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04u",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Mega.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/F1v69tn.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "Мега"
+  },
+  {
+    "location": "http://195.189.60.181:312/900/index.m3u8",
+    "duration": 0,
+    "attributes": {},
+    "name": "Медицинские сериалы HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/918/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Международная кухня HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/890/index.m3u8",
+    "duration": 0,
+    "attributes": {},
+    "name": "Мелодрама HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/556/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "ДІТИ"
+    },
+    "name": "Мультфільми HD"
+  },
+  {
+    "location": "http://stream.ntktv.ua/s/ntk/ntk.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "NTK.kz",
+      "tvg-language": "kaz",
+      "tvg-country": "KZ",
+      "tvg-logo": "https://i.imgur.com/hHSCH4L.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "НТК"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04t",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "NTN.ua",
+      "tvg-language": "ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/tHb5rPa.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "НТН"
+  },
+  {
+    "location": "http://195.189.60.181:312/423/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "Nauka.ua",
+      "tvg-language": "ukr;rus",
+      "tvg-country": "UA",
+      "tvg-logo": "https://i.imgur.com/3aWsmoY.png",
+      "group-title": "УКРАИНА"
+    },
+    "name": "Наука"
+  },
+  {
+    "location": "http://195.189.60.181:312/5/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Новий канал"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04v",
+    "duration": -1,
+    "attributes": {
+      "group-title": "ДІТИ"
+    },
+    "name": "ПЛЮС ПЛЮС HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/922/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Педиатрия HD"
+  },
+  {
+    "location": "http://cdn1.live-tv.od.ua:8081/1tvod/1tvod-abr-lq/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Первый Городской Одесса"
+  },
+  {
+    "location": "http://cdn1.live-tv.od.ua:8081/1tvkr/1tvkr-abr/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Первый городской Кривийіг"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Перший HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/917/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Полезная еда HD"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/hrpl/720p/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Полтавское ТВ"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/14/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Прямий HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/921/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Психология HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/47/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "ДІТИ"
+    },
+    "name": "Піксель HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7418/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "RadaTV.ua",
+      "tvg-language": "rus;eng;ukr",
+      "tvg-country": "UA",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/512px-Rada_TV_%282021%29.svg.png",
+      "group-title": "legislative"
+    },
+    "name": "Рада"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr-lq/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "СК1 (Житомир)"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04l",
+    "duration": -1,
+    "attributes": {
+      "tvg-id": "STV.by",
+      "tvg-language": "rus",
+      "tvg-country": "BY",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg/512px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg.png",
+      "group-title": "general"
+    },
+    "name": "СТБ"
+  },
+  {
+    "location": "http://195.189.60.181:312/925/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Садоводство HD"
+  },
+  {
+    "location": "http://80.91.177.102:1935/live/live1/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Сварожичи"
+  },
+  {
+    "location": "https://bal.varcdn.top/sport1/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Спорт 1"
+  },
+  {
+    "location": "http://bal.varcdn.top/sport2/index.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Спорт-2"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7592/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Суспільне Київ HD"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04j",
+    "duration": -1,
+    "attributes": {},
+    "name": "Суспільне Культура"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Сфера ТВ"
+  },
+  {
+    "location": "http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ТВА"
+  },
+  {
+    "location": "http://91.146.94.234:10001/play/a04p",
+    "duration": 0,
+    "attributes": {},
+    "name": "ТЕТ"
+  },
+  {
+    "location": "http://cdn10.live-tv.od.ua:8081/riood/tisod-abr-lq/playlist.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ТИС-ТВ (Одесса)"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/7410/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "ТРК Київ"
+  },
+  {
+    "location": "http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Тернопiль 1 HD"
+  },
+  {
+    "location": "http://195.189.60.181:312/451/index.m3u8",
+    "duration": -1,
+    "attributes": {},
+    "name": "Трофей HD"
+  },
+  {
+    "location": "http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Уніaн"
+  },
+  {
+    "location": "https://live-k2309-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Фан Спорт 2."
+  },
+  {
+    "location": "https://live-k2311-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8",
+    "duration": -1,
+    "attributes": {
+      "group-title": "СПОРТ"
+    },
+    "name": "Фан Спорт."
+  },
+  {
+    "location": "http://portal.ott.pink/watch/131/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6",
+    "duration": -1,
+    "attributes": {
+      "group-title": "УКРАИНА"
+    },
+    "name": "Чернівецький Промінь HD"
+  }
+]
